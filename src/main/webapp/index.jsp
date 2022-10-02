@@ -5,10 +5,10 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-    <form method="post" action="${pageContext.request.contextPath}/servlet/counter">
+    <form method="post" action="/servlet/counter">
         <input type="submit" value="Increment">
     </form>
-    <form method="get" action="${pageContext.request.contextPath}/servlet/counter">
+    <form method="get" action="/servlet/counter">
         <input type="submit" value="Get Counter info">
     </form>
 </body>
